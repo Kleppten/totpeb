@@ -1,0 +1,49 @@
+{
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "Public Domain",
+    "longName": "pTOTP",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "data/secret_key.txt",
+                "name": "SECRET_KEY",
+                "type": "raw"
+            },
+            {
+                "file": "data/key_names.txt",
+                "name": "SECRET_NAME",
+                "type": "raw"
+            },
+            {
+                "file": "data/key_count.txt",
+                "name": "SECRET_COUNT",
+                "type": "raw"
+            },
+            {
+                "file": "data/is_dst.bin",
+                "name": "IS_DST",
+                "type": "raw"
+            },
+            {
+                "file": "data/gmt_offset.bin",
+                "name": "GMT_OFFSET",
+                "type": "raw"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "pTOTP",
+    "uuid": "f3617030-8706-43b6-adde-d73fdb380244",
+    "versionCode": 1,
+    "versionLabel": "1",
+    "watchapp": {
+        "watchface": false
+    }
+}
